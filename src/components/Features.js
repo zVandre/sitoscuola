@@ -4,23 +4,30 @@ import './Features.css';
 
 const features = [
   {
-    title: 'Keynote Speakers',
-    description: 'Ascolta leader del settore tecnologico.',
+    title: 'Keynote di Visionari',
+    description: 'Ascolta interventi ispiratori da leader e pionieri del settore tech che plasmano il futuro.',
   },
   {
-    title: 'Workshop Interattivi',
-    description: 'Partecipa a sessioni pratiche e innovative.',
+    title: 'Workshop Immersivi',
+    description: 'Partecipa a sessioni pratiche e interattive, pensate per farti vivere la tecnologia da vicino.',
   },
   {
-    title: 'Networking',
-    description: 'Incontra professionisti e appassionati del tech.',
+    title: 'Networking & Collaborazioni',
+    description: 'Costruisci relazioni con professionisti, innovatori e startup in un ambiente stimolante e dinamico.',
+  },
+  {
+    title: 'Esposizioni Interattive',
+    description: 'Scopri le ultime innovazioni e prototipi delle aziende leader del settore, in spazi espositivi futuristici.',
   },
 ];
 
 const Features = () => {
   return (
-    <section className="features" id="about">
-      <h2>Perché partecipare?</h2>
+    <section className="features" id="program">
+      <h2>Esplora le Innovazioni</h2>
+      <p className="features-intro">
+        Al TechTalk Festival 2025 ogni esperienza è studiata per ispirarti, educarti e connetterti con il futuro. Dai un'occhiata ai momenti clou dell'evento.
+      </p>
       <div className="features-container">
         {features.map((feature, index) => (
           <motion.div
