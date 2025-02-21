@@ -4,7 +4,8 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: url('/path/to/your/image.jpg') center/cover no-repeat;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 9%, rgba(0,5,255,1) 50%, rgba(9,9,121,1) 93%);
     text-align: center;
     color: #fff;
   }
